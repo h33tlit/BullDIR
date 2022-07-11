@@ -13,14 +13,14 @@ func main() {
 	fmt.Print(string(colorGreen), " ▄▄▄▄    █    ██  ██▓     ██▓    ▓█████▄  ██▓ ██▀███  \n▓█████▄  ██  ▓██▒▓██▒    ▓██▒    ▒██▀ ██▌▓██▒▓██ ▒ ██▒\n▒██▒ ▄██▓██  ▒██░▒██░    ▒██░    ░██   █▌▒██▒▓██ ░▄█ ▒\n▒██░█▀  ▓▓█  ░██░▒██░    ▒██░    ░▓█▄   ▌░██░▒██▀▀█▄  \n░▓█  ▀█▓▒▒█████▓ ░██████▒░██████▒░▒████▓ ░██░░██▓ ▒██▒\n░▒▓███▀▒░▒▓▒ ▒ ▒ ░ ▒░▓  ░░ ▒░▓  ░ ▒▒▓  ▒ ░▓  ░ ▒▓ ░▒▓░\n▒░▒   ░ ░░▒░ ░ ░ ░ ░ ▒  ░░ ░ ▒  ░ ░ ▒  ▒  ▒ ░  ░▒ ░ ▒░\n ░    ░  ░░░ ░ ░   ░ ░     ░ ░    ░ ░  ░  ▒ ░  ░░   ░ \n ░         ░         ░  ░    ░  ░   ░     ░     ░     \n      ░                           ░               \n")
 	fmt.Print(string(colorRed), "Fast hidden directory/file scanner made with GO!\n\nAuthor: Jubaer alnazi, Version: 1.0, Website: https://jubaeralnazi.com\n\n\n")
 
-	// Declaring input variable for directory.
+	// Declaring input variable for target.
 	var targetinput string
 
-	// Taking input for absolute path.
+	// Taking input for target.
 	fmt.Print(string(colorGreen), "Enter your target (example: https://jubaeralnazi.com) ==> ")
 	fmt.Scan(&targetinput)
 
-	// Declaring input variable for directory
+	// Declaring input variable for wordlist directory
 	var dirinput string
 
 	// Taking input for absolute path
