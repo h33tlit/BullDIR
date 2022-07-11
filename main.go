@@ -16,7 +16,7 @@ func main() {
 	// Declaring input variable for directory.
 	var targetinput string
 
-	// Taking input for absolute path
+	// Taking input for absolute path.
 	fmt.Print(string(colorGreen), "Enter your target (example: https://jubaeralnazi.com) ==> ")
 	fmt.Scan(&targetinput)
 
