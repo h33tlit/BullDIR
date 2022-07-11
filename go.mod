@@ -1,4 +1,4 @@
-module awesomeProject
+module BullDIR
 
 go 1.18
 
