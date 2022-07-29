@@ -14,3 +14,10 @@ BullDIR is a fast hidden directory/file scanner which scans for active and hidde
 
 
 ![Screenshot 2022-07-11 at 10 19 35 PM](https://user-images.githubusercontent.com/97327489/178286148-2e09ec53-2c43-4267-a1c4-1db62a046ad1.png)
+
+
+# Install
+
+```git clone https://github.com/h33tlit/BullDIR/```
+
+```go run bulldir.go```
